@@ -1,0 +1,7 @@
+while true do
+    wait()
+local kick = game.Players.LocalPlayer.PlayerGui:FindFirstChild("Despacito2")
+if kick then
+    kick:Remove()
+end
+end
