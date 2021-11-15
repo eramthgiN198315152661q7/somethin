@@ -1,0 +1,7 @@
+	while true do
+		wait(0.02)
+
+		local A_1 = "The Remastering"
+		local A_2 = "Golden Pan"
+		local Event = game:GetService("Lighting").codeRedeem
+		Event:FireServer(A_1, A_2)
